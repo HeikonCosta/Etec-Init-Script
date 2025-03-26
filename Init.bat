@@ -22,12 +22,14 @@ echo                                                                         $$ 
 echo                                                                         $$ ^|               
 echo                                                                         \__^|               
 
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\AdminPermission.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeWindowsTheme.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeTaskbarAlignment.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeTaskbarSearchMode.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeTaskbarTaskViewMode.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeTaskbarWidgetMode.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeTaskbarTaskGrouping.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\ChangeCursorSpeed.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\VisualEffects.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\RestartExplorer.ps1"
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0\Scripts\Logout.ps1"
