@@ -1,3 +1,4 @@
+# working
 Write-Host "Select task grouping:"
 Write-Host "1. Combine Tasks (default)"
 Write-Host "2. Combine Tasks when taskbar is full"
