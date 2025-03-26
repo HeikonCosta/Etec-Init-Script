@@ -1,3 +1,4 @@
+# working
 Write-Host "Select a task view mode:"
 Write-Host "1. Hidden (default)"
 Write-Host "2. Shows"

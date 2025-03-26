@@ -1,3 +1,4 @@
+# working
 Write-Host "Select a search icon mode:"
 Write-Host "1. Hidden (default)"
 Write-Host "2. Icon only"

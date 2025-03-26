@@ -1,3 +1,4 @@
+# working
 Write-Host "Select a theme mode:"
 Write-Host "1. Dark (default)"
 Write-Host "2. Light"
