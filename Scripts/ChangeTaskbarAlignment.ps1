@@ -1,3 +1,4 @@
+# working
 Write-Host "Select a taskbar alignment:"
 Write-Host "1. Left (default)"
 Write-Host "2. Center"
