@@ -6,8 +6,6 @@ function Set-Defult {
 }
 
 function Set-Speed {
-    Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "AppsUseLightTheme" -Value 1
-    Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" -Name "SystemUsesLightTheme" -Value 1
     Write-Host -f Yellow "Cursor speed set to.`n"
 }
 
