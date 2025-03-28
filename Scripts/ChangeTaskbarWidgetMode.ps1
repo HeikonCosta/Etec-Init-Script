@@ -1,3 +1,5 @@
+# partially working
+# need a patch
 Write-Host "Select a widget mode:"
 Write-Host "1. Hidden (default)"
 Write-Host "2. Shows"
