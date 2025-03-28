@@ -1,4 +1,5 @@
 # working
+# click lock is being activated.
 $selection = Read-Host "Select the cursor speed (1-20): "
 
 function Set-Defult {
